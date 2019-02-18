@@ -1,0 +1,42 @@
+.sm-visible{
+    display: none;
+    @include rwd(sm){
+        display: block;
+    }
+}
+.md-visible{
+    display: none;
+    @include rwd(md){
+        display: block;
+    }
+}
+.lg-visible{
+    display: none;
+    @include rwd(lg){
+        display: block;
+    }
+}
+.xl-visible{
+    display: none;
+    @include rwd(xl){
+        display: block;
+    }
+}
+.mobile-off{
+    display: none;
+    @include rwd(md){
+        display: block;
+    }
+}
+.c-pink{
+    color: deeppink;
+}
+.c-ylw{
+    color: gold;
+}
+.c-green{
+    color: chartreuse;
+}
+.c-blue{
+    color: cyan;
+}

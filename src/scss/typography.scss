@@ -1,0 +1,36 @@
+
+body{
+    font-family: $font;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    font-family: $font-headings;
+    color: $black;
+}
+.t-bold{
+    font-weight: 900;
+}
+.t-center{
+    text-align: center;
+}
+.t-upper{
+    text-transform: uppercase;
+}
+.t-accent{
+    color: $accent;
+}
+.t-alt{
+    color: $alt;
+}
+.t-xxl{
+    font-size: 3.2rem;
+}
+.t-xl{
+    font-size: 2rem ;
+}
+.t-m{
+    font-size: 1.5rem;
+}
+p{
+    line-height: 1.3;
+}
